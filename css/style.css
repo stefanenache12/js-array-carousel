@@ -19,10 +19,15 @@ body {
 }
 
 .carousel {
-    height: 25rem;
+    height: 18.75rem;
     width: 43.75rem;
     position: relative;
-    
+    border: 1px solid black;
+}
+
+#carousel {
+    height: 18.75rem;;
+    width: 43.75rem;
 }
 
 img {
@@ -43,7 +48,9 @@ img {
     top: 0;
     left: 50%;
     translate: -50% 0;
+    z-index: 10;
     display: none;
+    
 }
 
 #button-down {
@@ -60,4 +67,12 @@ img {
 
 .carousel:hover #button-down {
     display: inline-block;
+}
+
+.active {
+    display: inline-block;
+}
+
+.non-active {
+    display: none;
 }
