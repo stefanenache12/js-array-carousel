@@ -69,10 +69,3 @@ img {
     display: inline-block;
 }
 
-.active {
-    display: inline-block;
-}
-
-.non-active {
-    display: none;
-}
